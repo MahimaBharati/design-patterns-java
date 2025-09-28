@@ -44,6 +44,7 @@ Client --> NotificationService --> NotificationFactory -->Notification
 * Promotes loose coupling and adheres to Open/Closed Principle.
 * Centralizes object creation → easier to maintain.
 
+# ▶️ How to Run
 1. Compile all classes:
 
 ```bash
