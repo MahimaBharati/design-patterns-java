@@ -85,10 +85,12 @@ javac *.java
 java Main
 ```
 3. Expected Output:
+```text
 Processing payment via Paytm..
 Generating India invoice..
 Processing payment via Stripe..
 Generating US invoice..
+```
 
 ## 🔑 Takeaway
 **Bad:** Client directly creates concrete products (Paytm, Stripe, IndiaInvoice, USInvoice) → tightly coupled, hard to extend, and violates Open/Closed Principle.  
