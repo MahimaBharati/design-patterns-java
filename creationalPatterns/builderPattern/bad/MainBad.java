@@ -1,4 +1,4 @@
- import java.util.Arrays;
+import java.util.Arrays;
 public class MainBad {
     public static void main(String[] args) {
         Smoothie bananaSmoothie = new Smoothie("Milk","Medium" , Arrays.asList("Banana"),  null, null, null, null);
