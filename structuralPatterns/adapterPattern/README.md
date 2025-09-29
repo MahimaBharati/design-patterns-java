@@ -15,7 +15,7 @@ It acts as a **bridge** between the client and a class with a different interfac
 In the bad design:
 
 * The `CheckoutService` works only with `PaymentGateway` interface.
-* `PhonePe` implements `PaymentGateway`, but `Paytm` has a **different interface** (e.g., `pay()` instead of `processPayment()`).
+* `PhonePe` implements `PaymentGateway`, but `Paytm` has a **different interface** (e.g., `makePayment()` instead of `pay()`).
 * Without adaptation, the client cannot use `Paytm` inside `CheckoutService`.
 * This couples the client to specific implementations and breaks flexibility.
 

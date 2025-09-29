@@ -35,8 +35,3 @@ Creational patterns deal with **object creation mechanisms**, trying to create o
 ## 🧩 How to Remember (Sutra)
 
 > **Factory makes, Abstract Factory groups, Builder constructs step-by-step, Prototype copies, Singleton restricts.**
-
----
-
-## 📂 Folder Structure
-
